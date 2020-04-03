@@ -1,0 +1,2 @@
+forecastURL: https://api.weather.gov/gridpoints/FGF/99,57/forecast
+hourlyURL: https://api.weather.gov/gridpoints/FGF/99,57/forecast/hourly
