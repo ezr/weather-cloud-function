@@ -34,18 +34,10 @@ htmlTemplate = """
 <style>
 body {
     background: #333;
-    {{!bodySize}}
-}
-.all {
     font-family: sans-serif;
     background: white;
     color: black;
-    /*position:fixed;*/
-    width:100%;
-    height:100%;
-    top:0px;
-    left:0px;
-    z-index:1000;
+    {{!bodySize}}
 }
 table {
     font-family: arial, sans-serif;
@@ -57,7 +49,7 @@ td, th {
     padding: 8px;
 }
 @media (prefers-color-scheme: dark) {
-  .all { background: #333; color: white; }
+  body { background: #333; color: white; }
 }
 </style>
 </head>
